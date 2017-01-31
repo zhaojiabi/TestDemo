@@ -19,7 +19,7 @@ mkdir $CurrentEnvironment/log
 
 # 进入到指定目录
 cd ./$CurrentEnvironment
-#pwd
+pwd
 
 #apk重新签名
 calabash-android resign $ApkPath
