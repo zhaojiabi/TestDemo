@@ -1,17 +1,21 @@
 #!/bin/sh
 
 #--------------------------------------------------
-#    create environment file
+#    copy apk file and run the test
 #
 #
 #--------------------------------------------------
+
+
 #获取传过来的参数
 CurrentEnvironment=$1
 ApkPath=$2
+Tag=$3
 echo $ApkPath
+echo $Tag
 
 cp -r apk_file "$CurrentEnvironment"
-#mkdir $CurrentEnvironment/log
+mkdir $CurrentEnvironment/log
 
 # 进入到指定目录
 cd ./$CurrentEnvironment
@@ -24,4 +28,12 @@ calabash-android resign $ApkPath
 #calabash-android build $ApkPath
 #calabash-android run $ApkPath -v --tags @Test --format html --out reports.html
 #calabash-android run $ApkPath --tags @Test --format html --out reports.html
+#calabash-android run $ApkPath --tags @$Tag --format html --out reports.html
+
+
+
+
+
+
+
 
