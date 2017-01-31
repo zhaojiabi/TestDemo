@@ -6,7 +6,7 @@ echo $date_time
 
 CurrentEnvironment=$date_time".test_environment"
 echo $CurrentEnvironment
-ApkPath="./apk_file/wacai.apk"
+ApkPath="./apk_file/ticktask.apk"
 
 #copyfeature
 if [ -d "$CurrentEnvironment" ]; then
