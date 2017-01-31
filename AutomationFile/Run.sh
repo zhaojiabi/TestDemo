@@ -27,6 +27,8 @@ mkdir $CurrentEnvironment
 
 #copyfeature
 cp -r features "$CurrentEnvironment"
+cp -r apk_file "$CurrentEnvironment"
+mkdir $CurrentEnvironment/log
 
 #give the permission to the file and run the file
 chmod 777 ChooseApk.sh

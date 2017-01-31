@@ -14,8 +14,9 @@ Tag=$3
 echo $ApkPath
 echo $Tag
 
-cp -r apk_file "$CurrentEnvironment"
-mkdir $CurrentEnvironment/log
+
+#cp -r apk_file "$CurrentEnvironment"
+#mkdir $CurrentEnvironment/log
 
 # 进入到指定目录
 cd ./$CurrentEnvironment
