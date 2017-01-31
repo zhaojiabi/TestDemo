@@ -30,6 +30,24 @@ case $date_time in
 		echo today is Saturday;;
 	日 )
 		echo today is Sunday;;
+	Mon )
+		echo today is Monday;;
+	Tue )
+		echo today is Tuseday
+		ApkPath="./apk_file/ticktask.apk"
+		Tag="Test";;
+	Wed )
+		echo today is Wednesday
+		ApkPath="./apk_file/ticktask.apk"
+		Tag="UC001";;
+	Thu )
+		echo today is Thurday;;
+	Fri )
+		echo today is Firday;;
+	Sat )
+		echo today is Saturday;;
+	Sun )
+		echo today is Sunday;;
 esac
 
 #获取到传递的参数
