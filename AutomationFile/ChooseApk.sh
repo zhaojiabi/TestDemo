@@ -43,7 +43,9 @@ case $date_time in
 	Thu )
 		echo today is Thurday;;
 	Fri )
-		echo today is Firday;;
+		echo today is Firday
+		ApkPath="./apk_file/ticktask.apk"
+		Tag="UC001";;
 	Sat )
 		echo today is Saturday;;
 	Sun )

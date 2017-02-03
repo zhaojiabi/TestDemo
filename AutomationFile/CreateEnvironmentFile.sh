@@ -29,7 +29,7 @@ calabash-android resign $ApkPath
 #calabash-android build $ApkPath
 #calabash-android run $ApkPath -v --tags @Test --format html --out reports.html
 #calabash-android run $ApkPath --tags @Test --format html --out reports.html
-#calabash-android run $ApkPath --tags @$Tag --format html --out reports.html
+calabash-android run $ApkPath --tags @$Tag --format html --out reports.html
 
 
 
