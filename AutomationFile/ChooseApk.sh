@@ -73,6 +73,7 @@ esac
 #获取到传递的参数
 CurrentEnvironment=$1
 #echo $CurrentEnvironment
+echo $Tag
 
 #给文件权限，并且执行文件
 chmod 777 CreateEnvironmentFile.sh
